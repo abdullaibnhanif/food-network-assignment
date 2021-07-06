@@ -21,12 +21,39 @@ h4{
     padding-left: 5%;
 }
 .half-width img{
-    width: 80%;
+    width: 90%;
 }
 .flexible-container{
     display: flex;
 }
 .order-button{
+    text-decoration: none;
+    background-image: linear-gradient(to right, #FBA24F, #FF1E1E);
+    padding: 20px 40px;
+    border-radius: 40px;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.about-area{
+    background-image: url(images/shapes/7.png);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    
+}
+h2{
+    color: #707070;
+    padding-top: 5%;
+}
+.about-paragraph{
+    padding-bottom: 5%;
+    padding-right: 20%;
+    color: #18191F;
+    font-weight: bold;
+}
+.contact-me{
     text-decoration: none;
     background-image: linear-gradient(to right, #FBA24F, #FF1E1E);
     padding: 20px 40px;
