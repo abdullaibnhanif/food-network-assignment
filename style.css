@@ -7,12 +7,16 @@ header {
     top: 0;
     right: 0;
     left: 0;
-    padding: 0 5%;
+    padding: 0 3%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     box-shadow: 0 10px 10px rgb(179, 174, 174) ;
     background: #f7f1eb;
+
+}
+#home{
+    margin-top: 80px;
 }
 header a {
     text-decoration: none;
@@ -47,7 +51,7 @@ h4{
     padding-bottom: 30px;
 }
 .highlight-color{
-    color: #FBA24F;
+    color: rgb(255, 81, 0);
 }
 .half-width{
     width: 50%;
