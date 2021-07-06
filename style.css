@@ -150,3 +150,8 @@ footer{
     text-align: center;
     background-color: #0B0D17;
 }
+.copyright{
+    color: orange;
+    font-size: 12px;
+    padding-bottom: 20px;
+}
