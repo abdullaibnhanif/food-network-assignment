@@ -2,12 +2,45 @@ body{
     font-family: 'Montserrat', sans-serif;
     margin: 0;
 }
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 10px 10px rgb(179, 174, 174) ;
+    background: #f7f1eb;
+}
+header a {
+    text-decoration: none;
+    color : black;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.logo {
+    font-size: 40px;
+}
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+.navbar ul li {
+    margin-left: 10px;
+}
+.navbar ul li a {
+    font-size: 20px;
+}
+.navbar ul li a:hover {
+    color: orangered;
+}
 h1{
     font-size: 45px;
     font-weight: bolder;
     color: #575757;
-    padding-top: 15%;
-    
+    padding-top: 15%; 
 }
 h4{
     color: #828282;
@@ -93,4 +126,23 @@ h3{
 .recipies-Item-paragraph{
     text-align: left;
     font-size: 14px;
+}
+.social-views {
+    display: flex;
+    margin: 100px 10% 100px 14%;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 30px;
+    padding: 20px 250px;
+    
+}
+.social-views h5 {
+    color: gray;
+    font-weight: 700;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    background-color: #0B0D17;
 }
