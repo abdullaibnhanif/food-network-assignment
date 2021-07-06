@@ -62,3 +62,9 @@ h2{
     font-weight: 700;
     letter-spacing: 2px;
 }
+.recipies{
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 5%;
+}
